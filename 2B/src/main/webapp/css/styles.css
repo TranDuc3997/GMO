@@ -1,0 +1,88 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #F9F8F9;
+  font-size: 20px;
+}
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+.row input {
+  width: 40%;
+  height: 30px;
+  margin-left: 5px;
+}
+.signup {
+  width: 100%;
+}
+.row {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+span {
+  font-weight: bold; 
+  color: red;
+}
+.form__label {
+  width: 50px;
+  line-height: 10px;
+  margin-right: 50px;
+}
+.--postision {
+  margin-left: 180px;
+}
+.--postision input {
+  margin-left: 25px;
+  background-color: #2471A3;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+
+#table-js {
+  width: 500;
+  height: 250;
+  border-collapse: collapse;
+}
+  
+#table-js, th, td {
+  border: 2px solid black;
+}
+th ,td {
+  height: 30px;
+  width: 25px;
+}
+#value-js {
+  width: 250px;
+  height: 35px;
+  background-image: url(../images/Calendar.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#head-js {
+  color: red;
+  background-color: #bebebe;
+}
+#table-js td {
+  text-align: center;
+}
+.notday-js {
+  background-color: black;
+}
+.day-js:hover {
+  background-color: #00ace6;
+}
+#forward__Month-js ,#forward__Year-js ,#back__Month-js ,#back__Year-js {
+  cursor: pointer;
+  background: no-repeat;
+  background-color: #a9cce3;
+  color: #00ace6;
+}
+
+#months-js , #years-js {
+  width: 100%;
+  height: 100%
+}

@@ -7,6 +7,11 @@ function checkAcount(){
   checkPass();
   checkEmail();
 }
+function refresh() {
+  var text = document.getElementsByTagName("SPAN");
+  for(var i = 0 ; i < 4 ; i++)
+    text[i].innerText = "";
+}
 function checkPass(){
   var pass = document.getElementById("pass");
   var check_pass = document.getElementById("check__pass-js");

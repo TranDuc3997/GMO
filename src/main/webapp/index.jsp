@@ -29,8 +29,8 @@
                 </div>
                 <div id="calendar"> </div>
                 <div class="row --postision">
-                    <input type="submit" value="SUBMIT">
-                    <input type="button" value="REFRESH">
+		    <input type="submit" value="SUBMIT">
+                    <input type="reset" value="REFRESH" onclick="refresh()">
                 </div>
             </form>
         </div>
